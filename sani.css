@@ -45,13 +45,11 @@ header{
     align-items: center;
     justify-content: center;
 }
-.home{
-    height: 100vh;
-}
 .container{
-    height: 100%;
-    width: 100%;
-    padding: 20px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 p{
     font-size: 20px;
