@@ -10,6 +10,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
+
 }
 .animate p{
     color: #fff;
@@ -109,4 +110,83 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+@media (max-width: 350px){
+    header{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        background-color: #bdbbbb;
+    }
+    .navbar{
+        height: 350px;
+        width: 340px;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    #inicio{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    #inicio img{
+        height: 200px;
+        width: 200px;
+    }
+    .cartas{
+        display: block;
+        height: auto;
+    }
+    .carta1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 50vh;
+        width: 100%;
+        border-radius: 0;
+    }
+    .carta2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 50vh;
+        width: 100%;
+        border-radius: 0;
+    }
+    .carta3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 50vh;
+        width: 100%;
+        border-radius: 0;
+    }
+    .carta4{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 50vh;
+        width: 100%;
+        border-radius: 0;
+    }
+    .carta5{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 50vh;
+        width: 100%;
+        border-radius: 0;
+    }
 }
